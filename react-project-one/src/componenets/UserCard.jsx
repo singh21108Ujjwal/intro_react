@@ -1,13 +1,11 @@
-import React from 'react'
-import reactpic from '../assets/react.svg'
 import './UserCard.css'
 
-const UserCard = () => {
+const UserCard = (props) => {
   return (
-    <div className='user-container'>
-      <p id='user-name'>Ujjwal Kumar</p>
-      <img id='user-img' src={reactpic} alt='ujjwal'></img>
-      <p id='user-description'>Description of Ujjwal</p>
+    <div className='user-container' style={props.style}>
+      <p id='user-name'>{props.name}</p>
+      <img id='user-img' src={props.image} alt='ujjwal'></img>
+      <p id='user-description'>{props.desc}</p>
     </div>
   )
 }

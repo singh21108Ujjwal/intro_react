@@ -1,10 +1,19 @@
 .user-container{
-    background-color: antiquewhite;
-    padding: 25px;    
+    background-color: rgb(237, 160, 60);
+    padding: 1px;  
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    margin: 1rem;  
+    
 }
 
 #user-img{
-    height: 120;
-    width:50%;
+    height: 100PX;
+    width:100PX;
+    border-radius: 50%;
 }
 
